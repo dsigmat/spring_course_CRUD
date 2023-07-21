@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Страница о Spring Boot</title>
+
+    <!-- Подключаем Bootstrap CSS -->
+    <link
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+    >
+</head>
+<body class="p-5">
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">neSpring Boot</h5>
+        <p class="card-text">neSpring Boot в руках программиста спелых,</p>
+        <p class="card-text">neИз коробки, работает как метроном.</p>
+        <p class="card-text">neОн упрощает задачи нелегкие,</p>
+        <p class="card-text">neРождает код, что легок, как аэрофлот.</p>
+    </div>
+    <a href="/api/nehello?name=Putin&surname=Putin">hello</a>
+    <p th:text="${message}"></p>
+</div>
+<footer class="mt-5">
+    <p>© 2023 Все права защищены.</p>
+</footer>
+
